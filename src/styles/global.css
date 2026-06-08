@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #04171f;
+  color: #fff8ea;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: #64c7d8;
+  color: #04171f;
+}
+
+.prose-surf {
+  max-width: 70ch;
+  line-height: 1.75;
+  color: rgba(255, 248, 234, 0.84);
+}
+
+.prose-surf strong {
+  color: #fff8ea;
+}
